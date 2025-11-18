@@ -1,0 +1,32 @@
+/* ----- Switch Pricing Table Home Layout 2 ----- */
+function check() {
+  var checkBox = document.getElementById("checbox");
+  var text1 = document.getElementsByClassName("text1");
+    var text2 = document.getElementsByClassName("text2");
+
+    var type = document.getElementsByClassName("plan-type");
+
+  for (var i = 0; i < text1.length; i++) {
+    if (checkBox.checked == true) {
+      text1[i].style.display = "block";
+        text2[i].style.display = "none";
+        if (type.length>0) {
+            for (var j = 0; j < type.length; j++) {
+                type[j].value = "1";
+            }
+        }
+       
+       
+    } else if (checkBox.checked == false) {
+      text1[i].style.display = "none";
+        text2[i].style.display = "block";
+        if (type.length > 0) {
+            for (var j = 0; j < type.length; j++) {
+                type[j].value = "0";
+            }
+        }
+
+    }
+  }
+}
+check();
