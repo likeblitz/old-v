@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "monser";
+    src: url(../Fonts/MontserratBold-DOWZd.ttf);
+    unicode-range: U+0000, U+007F;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "dana-regular";
+    /*    src: url(../Fonts/Dana-Regular.ttf);*/
+    src: url(../Fonts/DanaFaNum-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "dana-fat";
+    src: url(../Fonts/Dana-Fat.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "dana-demibold";
+    src: url(../Fonts/Dana-DemiBold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "dana-bold";
+    src: url(../Fonts/Dana-Bold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "dana-hairline";
+    src: url(../Fonts/Dana-Hairline.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "dana-ultraLight";
+    src: url(../Fonts/Dana-UltraLight.ttf);
+    font-display: swap;
+}
+
+
+body {
+    font-family: dana-regular;
+}
+
+.picgen-regular-text {
+    font-family: dana-regular;
+}
+
+.picgen-bold-text {
+    font-family: dana-regular;
+    font-weight: 900;
+}
+
+.picgen-demibold-text {
+    font-family: dana-demibold;
+}
+
+
+.picgen-fat-text {
+    font-family: dana-fat;
+}
+
+.picgen-hairline-text {
+    font-family: dana-hairline;
+}
+
+.picgen-ultraLight-text {
+    font-family: dana-ultraLight;
+}
+
+.after-disable::after {
+    display: none !important;
+}
+
+.dana-bold {
+    font-family: dana-bold !important;
+}
+
+.dana-demi-bold {
+    font-family: dana-demibold !important;
+}
+
+.premium-tag {
+    margin-top: 3px;
+    margin-right: 3px;
+    background-color: #FB5826A1;
+    color: white;
+    border-radius: 5px;
+    font-family: var(--title-font-family);
+    font-weight: 500;
+    border: solid 1px #DDD;
+    display: inline-block;
+    padding: 0px 15px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 28px;
+}
+/*ace-responsivemenu.css start*/
+
+/*ace-responsivemenu.css end*/
